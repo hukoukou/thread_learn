@@ -8,6 +8,7 @@ package multi_002;
  * 多线程对同一资源进行访问，需要对其资源进行加锁，若不加锁，输出会有重复的值
  * 当前问题叫线程重入
  * cpu（线程）缓存改变了的值没有刷新到主内存，然后又有一个新的cpu（线程）读取了原来的值，导致出现问题
+ *
  */
 public class T implements Runnable{
     private int count = 10;
