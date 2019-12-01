@@ -2,10 +2,16 @@ package multi_001;
 
 /**
  * synchronized 关键字
- * 针对某个对象加锁
+ * 针对某个对象加锁.<br>
+ * <p>
+ * <br>
  *
+ * @Author: dawei
+ * @Date: 2019.12.01 23:51
+ * @params:
+ * @Return:
+ * @exception:
  */
-
 public class Th {
     private int count = 10;
     private static int countStatic = 10;
