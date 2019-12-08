@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
  * date: 2019.12.01 16:47 <br>
  * author: dawei <br>
  * version: 1.0 <br>
- * description: 业务上加锁与不加锁的脏读问题（dir）<br>
+ * description: 业务上加锁与不加锁的脏读问题（dirtyRead）（CopyOnWrite）<br>
  * 只对写加锁，不对读加锁，在执行锁定的存方法时，有可能其他线程对非锁定方法执行，导致业务上数据存在脏读问题
  * 临界资源访问加锁
  * 若业务允许存在脏读，则可以不加锁
